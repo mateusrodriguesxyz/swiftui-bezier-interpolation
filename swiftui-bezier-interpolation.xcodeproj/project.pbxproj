@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC08454F25D9D26C00133783 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC08454E25D9D26C00133783 /* AnimationView.swift */; };
+		DC97A78325D5485100E483ED /* swiftui_bezier_interpolationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97A78225D5485100E483ED /* swiftui_bezier_interpolationApp.swift */; };
+		DC97A78725D5485400E483ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC97A78625D5485400E483ED /* Assets.xcassets */; };
+		DC97A78A25D5485400E483ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC97A78925D5485400E483ED /* Preview Assets.xcassets */; };
+		DC97A79425D548A700E483ED /* BezierCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97A79325D548A700E483ED /* BezierCurve.swift */; };
+		DC97A79725D548CD00E483ED /* solve.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97A79625D548CD00E483ED /* solve.swift */; };
+		DC97A7B725D6F0A600E483ED /* _Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97A7B625D6F0A600E483ED /* _Animation.swift */; };
+		DC97A7BE25D7096A00E483ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97A7BD25D7096A00E483ED /* ContentView.swift */; };
+		DC97A7C225D7098E00E483ED /* CurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97A7C125D7098E00E483ED /* CurveView.swift */; };
+		DC97A7C525D70B4800E483ED /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97A7C425D70B4800E483ED /* LineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC08454E25D9D26C00133783 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		DC97A77F25D5485100E483ED /* swiftui-bezier-interpolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-bezier-interpolation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC97A78225D5485100E483ED /* swiftui_bezier_interpolationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_bezier_interpolationApp.swift; sourceTree = "<group>"; };
+		DC97A78625D5485400E483ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC97A78925D5485400E483ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC97A78B25D5485400E483ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC97A78C25D5485400E483ED /* swiftui_bezier_interpolation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftui_bezier_interpolation.entitlements; sourceTree = "<group>"; };
+		DC97A79325D548A700E483ED /* BezierCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierCurve.swift; sourceTree = "<group>"; };
+		DC97A79625D548CD00E483ED /* solve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solve.swift; sourceTree = "<group>"; };
+		DC97A7B625D6F0A600E483ED /* _Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Animation.swift; sourceTree = "<group>"; };
+		DC97A7BD25D7096A00E483ED /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC97A7C125D7098E00E483ED /* CurveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveView.swift; sourceTree = "<group>"; };
+		DC97A7C425D70B4800E483ED /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC97A77C25D5485100E483ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC97A77625D5485100E483ED = {
+			isa = PBXGroup;
+			children = (
+				DC97A78125D5485100E483ED /* swiftui-bezier-interpolation */,
+				DC97A78025D5485100E483ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC97A78025D5485100E483ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC97A77F25D5485100E483ED /* swiftui-bezier-interpolation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC97A78125D5485100E483ED /* swiftui-bezier-interpolation */ = {
+			isa = PBXGroup;
+			children = (
+				DC97A78225D5485100E483ED /* swiftui_bezier_interpolationApp.swift */,
+				DC97A7BD25D7096A00E483ED /* ContentView.swift */,
+				DC08454E25D9D26C00133783 /* AnimationView.swift */,
+				DC97A7C125D7098E00E483ED /* CurveView.swift */,
+				DC97A7C425D70B4800E483ED /* LineView.swift */,
+				DC97A7B625D6F0A600E483ED /* _Animation.swift */,
+				DC97A79325D548A700E483ED /* BezierCurve.swift */,
+				DC97A79625D548CD00E483ED /* solve.swift */,
+				DC97A78625D5485400E483ED /* Assets.xcassets */,
+				DC97A78B25D5485400E483ED /* Info.plist */,
+				DC97A78C25D5485400E483ED /* swiftui_bezier_interpolation.entitlements */,
+				DC97A78825D5485400E483ED /* Preview Content */,
+			);
+			path = "swiftui-bezier-interpolation";
+			sourceTree = "<group>";
+		};
+		DC97A78825D5485400E483ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC97A78925D5485400E483ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC97A77E25D5485100E483ED /* swiftui-bezier-interpolation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC97A78F25D5485400E483ED /* Build configuration list for PBXNativeTarget "swiftui-bezier-interpolation" */;
+			buildPhases = (
+				DC97A77B25D5485100E483ED /* Sources */,
+				DC97A77C25D5485100E483ED /* Frameworks */,
+				DC97A77D25D5485100E483ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-bezier-interpolation";
+			productName = "swiftui-bezier-interpolation";
+			productReference = DC97A77F25D5485100E483ED /* swiftui-bezier-interpolation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC97A77725D5485100E483ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DC97A77E25D5485100E483ED = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = DC97A77A25D5485100E483ED /* Build configuration list for PBXProject "swiftui-bezier-interpolation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC97A77625D5485100E483ED;
+			productRefGroup = DC97A78025D5485100E483ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC97A77E25D5485100E483ED /* swiftui-bezier-interpolation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC97A77D25D5485100E483ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC97A78A25D5485400E483ED /* Preview Assets.xcassets in Resources */,
+				DC97A78725D5485400E483ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC97A77B25D5485100E483ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC97A7C525D70B4800E483ED /* LineView.swift in Sources */,
+				DC08454F25D9D26C00133783 /* AnimationView.swift in Sources */,
+				DC97A7C225D7098E00E483ED /* CurveView.swift in Sources */,
+				DC97A79425D548A700E483ED /* BezierCurve.swift in Sources */,
+				DC97A7BE25D7096A00E483ED /* ContentView.swift in Sources */,
+				DC97A7B725D6F0A600E483ED /* _Animation.swift in Sources */,
+				DC97A79725D548CD00E483ED /* solve.swift in Sources */,
+				DC97A78325D5485100E483ED /* swiftui_bezier_interpolationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC97A78D25D5485400E483ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC97A78E25D5485400E483ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DC97A79025D5485400E483ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-bezier-interpolation/swiftui_bezier_interpolation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-bezier-interpolation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-bezier-interpolation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.ifce.mateus.swiftui-bezier-interpolation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC97A79125D5485400E483ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-bezier-interpolation/swiftui_bezier_interpolation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-bezier-interpolation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "swiftui-bezier-interpolation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.ifce.mateus.swiftui-bezier-interpolation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC97A77A25D5485100E483ED /* Build configuration list for PBXProject "swiftui-bezier-interpolation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC97A78D25D5485400E483ED /* Debug */,
+				DC97A78E25D5485400E483ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC97A78F25D5485400E483ED /* Build configuration list for PBXNativeTarget "swiftui-bezier-interpolation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC97A79025D5485400E483ED /* Debug */,
+				DC97A79125D5485400E483ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC97A77725D5485100E483ED /* Project object */;
+}
